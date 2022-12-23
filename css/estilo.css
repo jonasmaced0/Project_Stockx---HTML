@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+#principal{
+    width: 1200px;
+    margin: auto;
+}
+.header-top{
+    background: #00633f;
+    height: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+.logotipo{
+    height: 60px;
+    margin: 15px 0 15px 75px;
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px 25px 0 0;
+    padding: 8px;
+}
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    transition: color 0.33s linear;
+}
+.header-nav a:hover{
+    color: #83b633;
+}
+.history{
+    padding: 50px 100px;
+    text-align: center;
+}
+.history h1{
+    font-size: 46px;
+    color: #00633f;
+}.history p{
+    font-size: 20px;
+    color: #83b633;
+}
+.gallery{
+    background: #00633f;
+    color: white;
+    padding: 50px 5px 10px 5px;
+    overflow: auto;
+}.gallery-card{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.gallery-text{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.dunk-history{
+    border-top: 20px;
+    background-image: url(../imagens/nike-sues-stockx.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 80px;
+    height: 700px;
+    border: solid 10px #00633f;
+}
+.dunk-history h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    
+}
+.dunk-history p{
+    text-align: left;
+    line-height: 1.5;
+    width: 55%;
+    font-size: 20px;
+    padding: 10px;
+}
+.contact{
+    margin: 60px;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+.contact a{
+    text-decoration: none;
+    font-style: normal; 
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #00633f;
+}
+.map{
+    border: solid black 5px;
+    height: 500px;
+    width: 80%;
+    margin: 50px 100px 50px 100px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+.rodape{
+    height: 100px;
+    color: white;
+    background: #00633f;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 100px;
+    
+}
